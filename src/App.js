@@ -4,7 +4,7 @@ import Routers from './routes';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='/lighthouse'>
       <Routers/>
    </BrowserRouter>
   );

@@ -1,0 +1,195 @@
+.ant-layout{
+  background: #fff;
+}
+.dashboard{
+  height: 100%;
+  width: 100%;
+  padding: 24px 16px 0;
+}
+.dashboardLogo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.3s;
+  margin: 32px 20px;
+  
+}
+.dashboardLogo .ant-typography{
+  font-weight: 700;
+  font-size: 18px;
+  padding-left: 8px;
+  color: #fff;
+  /* width: 100%; */
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+  
+  .user-profile {
+    padding: 16px;
+    text-align: center;
+    color: white;
+  }
+  
+  .content {
+    margin-top: 50px;
+  }
+  
+  .setup-card {
+    /* display: inline-block; */
+    width: 100%;
+    height: 55vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .setup-card img{
+    width: 100%;
+    height: 100%;
+  }
+/*   
+  .setup-card img {
+    width: 200px;
+    height: auto;
+  } */
+  
+  .setup-card h2 {
+    margin-top: 20px;
+  }
+  
+  .setup-card button {
+    margin-top: 20px;
+  }
+  .data-model {
+    text-align: center;
+  }
+  
+  .content {
+    margin-top: 50px;
+  }
+  
+  .content h2 {
+    margin-bottom: 30px;
+  }
+  
+  .content button {
+    margin: 10px;
+  }
+  .searchSection{
+    padding: 0px 20px;
+    margin-bottom: 24px;
+  }
+  .searchSection .ant-input-outlined,.sideBarMainDiv .ant-menu-dark .ant-menu-item-selected{
+    background: #182230;
+    border-color: #475467;
+  }
+  .sideBarMainDiv ul{
+    padding: 5px 15px;
+  }
+  .sideBarMainDiv .ant-menu-dark{
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif; /* Apply Montserrat font-family */
+    font-weight: 600;
+    color: #fff;
+  }
+  .sideBarMainDiv .ant-menu-item
+  {
+    padding: 8px 12px !important;
+  }
+  .sideBarMainDiv .ant-menu-inline .ant-menu-item,.sideBarMainDiv .ant-menu-vertical >.ant-menu-item{
+    height: auto;
+    line-height: normal;
+  }
+  .searchSection input,.searchSection input::placeholder,.searchSection .ant-input-prefix,.searchSection .ant-input-affix-wrapper >input.ant-input{
+    color: #EAECF0;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif; /* Apply Montserrat font-family */
+  }
+  .logoutSection{
+    /* display: flex; */
+    width: 100%;
+    align-items: center;
+    padding: 8px 24px;
+    justify-content: space-between;
+    padding-right: 0;
+    position: absolute;
+    bottom: 50px;
+  }
+  .logoutSection .ant-typography{
+    font-size: 12px;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 500;
+    color: white;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden; 
+    width: 100%;
+  }
+  .logoutSection .ant-avatar{
+    width: auto;
+  }
+
+  .policy-form-container {
+    padding: 20px;
+    background-color: #FCFCFD;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  .policy-form-container .ant-form-item-label label{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #344054;
+  }
+  .policy-form-container .ant-input:placeholder-shown,.policy-form-container .ant-input-outlined,
+  .policy-form-container input::placeholder,.policy-form-container .ant-select-selection-placeholder,
+  .policy-form-container input,.policy-form-container .ant-picker-input input,.policy-form-container .ant-picker-input input::placeholder
+  {
+    font-size: 14px;
+    font-weight: 400;
+    color: #667085;
+    font-family: 'Montserrat',sans-serif;
+  }
+  .policy-form-container .ant-btn{
+    height: auto;
+  }
+  .table-container {
+    background: #fff;
+    /* border-radius: 8px; */
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .table-header {
+    font-size: 14px;
+    font-weight: 700;
+    background: #1890ff;
+    color: #fff;
+    padding: 5px 10px;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .table-container .ant-table-wrapper .ant-table-thead >tr>th{
+    background-color: #F9FAFB;
+    font-size: 12px;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
+    color: #475467;
+    text-transform: capitalize;
+  }
+  .table-container .ant-table-wrapper .ant-table-thead >tr>th:not(:last-child):not(.ant-table-selection-column):not(.ant-table-row-expand-icon-cell):not([colspan])::before{
+    display: none;
+  }
+  .table-container .ant-table-row{
+    font-size: 12px;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 400;
+    color: #475467;
+  }
+  .table-container .ant-table-wrapper .ant-table-cell ,.table-container .ant-table-wrapper .ant-table-tbody>tr>td{
+    padding: 10px;
+  }

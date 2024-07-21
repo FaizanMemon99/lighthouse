@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/lighthouse/static/css/main.59197dbe.css",
-    "main.js": "/lighthouse/static/js/main.bbc51cd2.js",
+    "main.js": "/lighthouse/static/js/main.3183969c.js",
     "static/css/193.6dd70652.chunk.css": "/lighthouse/static/css/193.6dd70652.chunk.css",
     "static/js/193.76268125.chunk.js": "/lighthouse/static/js/193.76268125.chunk.js",
     "static/js/453.c5630d03.chunk.js": "/lighthouse/static/js/453.c5630d03.chunk.js",
@@ -11,13 +11,13 @@
     "static/media/LightHouseLogo.svg": "/lighthouse/static/media/LightHouseLogo.040774a4e3772c314629a729aa3fb2f4.svg",
     "index.html": "/lighthouse/index.html",
     "main.59197dbe.css.map": "/lighthouse/static/css/main.59197dbe.css.map",
-    "main.bbc51cd2.js.map": "/lighthouse/static/js/main.bbc51cd2.js.map",
+    "main.3183969c.js.map": "/lighthouse/static/js/main.3183969c.js.map",
     "193.6dd70652.chunk.css.map": "/lighthouse/static/css/193.6dd70652.chunk.css.map",
     "193.76268125.chunk.js.map": "/lighthouse/static/js/193.76268125.chunk.js.map",
     "453.c5630d03.chunk.js.map": "/lighthouse/static/js/453.c5630d03.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.59197dbe.css",
-    "static/js/main.bbc51cd2.js"
+    "static/js/main.3183969c.js"
   ]
 }

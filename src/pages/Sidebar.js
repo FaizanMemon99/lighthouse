@@ -11,13 +11,13 @@ import "../styles/dashboard.css"
 const { Sider } = Layout;
 
 const Sidebar = () => {
-  const Navigate=useNavigate()
+  const navigate=useNavigate()
   const [collapsed, setCollapsed] = useState(true);
 
   return (
     <Sider width={250} className='sideBarMainDiv' collapsible collapsed={collapsed} onCollapse={() => setCollapsed(!collapsed)}>
      <div className="dashboardLogo" style={{justifyContent:collapsed?'center':'start',cursor:"pointer"}}
-     onClick={()=>Navigate('/')}
+     onClick={()=>navigate('/')}
      >
             <Avatar
               src={LightHouseLogo}  
@@ -52,7 +52,8 @@ const Sidebar = () => {
             <FontAwesomeIcon icon={faArrowRightFromBracket} style={{color:'#98A2B3',cursor:'pointer'}} title='Logout'
               onClick={()=>{
                 localStorage.removeItem('isAuth')
-                window.location.replace('/')
+                navigate('/')
+                window.location.reload()
               }}
             />
             </Col></>}
